@@ -488,7 +488,7 @@ body {
 
 .hexa .overlay {
     position: absolute;
-    width: 100%;
+    width: 40%;
     height: 100%;
     opacity: 0;
     background-image: url("../img/hexahover.png");
