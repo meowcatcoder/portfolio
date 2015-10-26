@@ -465,9 +465,9 @@ body {
     font-weight: 900;
     color: white;
     position: absolute;
-    margin-top: 93px;
+    margin-top: 55px;
     margin-bottom: 70px;
-    margin-left: 58px;
+    margin-left: 68px;
 }
 
 .c {
@@ -484,13 +484,11 @@ body {
     margin-right: 30px;
 }
 .e {
-    margin-top: 39px;
+        margin-top: 45px;
     line-height: 1.2;
     margin-bottom: 64px;
     margin-left: 69px;
     margin-right: 60px;
-
-
 }
 
 .hexa .overlay {
