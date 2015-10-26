@@ -325,8 +325,8 @@ a:focus {
 }
 
 .btn-color {
-    color: rgba(66, 220, 163, 0.97);
-    background-color: rgba(255, 255, 255, 0.36);
+        color: rgba(56, 56, 56, 0.97);
+    background-color: rgba(255, 255, 255, 0.52);
 }
 
 .btn-color:hover,
@@ -378,12 +378,16 @@ ul.banner-social-buttons {
     background-size: cover;
     -o-background-size: cover;
         background-position-y: 30%;
+   
+}
+footer {
+    padding: 20px 0%;
 }
 
 }
 
 footer {
-    padding: 50px 0;
+    padding: 2.5% 0;
 }
 
 footer p {
@@ -424,8 +428,9 @@ body {
 .line-purple {    border-left: 15px solid #820037;}
 
 /*work*/
-.bg-gray-2 {
-    background-color: #222;
+.bg-gray {
+    /*background-color: #ECECEC;*/
+    background-image: url(../img/m.jpg);
 }
 .sec {
   display: inline-block!important;
@@ -447,12 +452,12 @@ body {
     font-weight: 900;
     color: white;
     position: absolute;
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 .a {
-    margin-top: 77px;
-    margin-bottom: 70px;
-    margin-left: 22px;
+        margin-top: 32px;
+    margin-bottom: 53px;
+    margin-left: 37px;
     margin-right: 30px;
 }
 
@@ -466,7 +471,6 @@ body {
 }
 
 .c {
-    font-size: 1.5em;
     margin-top: 97px;
     margin-bottom: 70px;
     margin-left: 21px;
@@ -480,10 +484,13 @@ body {
     margin-right: 30px;
 }
 .e {
-        margin-top: 94px;
-    margin-bottom: 70px;
-    margin-left: 74px;
-    margin-right: 30px;
+    margin-top: 39px;
+    line-height: 1.2;
+    margin-bottom: 64px;
+    margin-left: 69px;
+    margin-right: 60px;
+
+
 }
 
 .hexa .overlay {
@@ -511,26 +518,17 @@ body {
 }
 
 .one {
-    bottom: 12%;
-    left: 2.5%;
-}
+    bottom: 14%;
+    left: 6.5%;}
 .two {
-    bottom: 7%;
-    left: 1.2%;
+    bottom: 6%;
+    left: 3.2%;
 }
 .three {
-    
+    bottom: 14%;
+    left: 8%;
 }
-.absolute .fourth {
-    
-}
-.five {
-    bottom: 19%;
-    left: 3%;
-}
-.absolute .six {
-    
-}
+
 
 .pd-5 {
     padding: 5%;
@@ -557,35 +555,94 @@ body {
 }
 
 
-
+.plr-5 {
+    padding-right: 5%;
+    padding-left: 5%;
+}
 
 /*portfolio*/
 
-.portfolio-item:hover {
+
+#portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+    position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0.2;
+    opacity: 0;
     background: rgba(24,188,156,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    transition: all ease-in-out .5s;
-
 }
+
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+    opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+    margin-top: -12px;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+    margin: 0;
+}
+
+#portfolio * {
+    z-index: 2;
+}
+
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
+.btn-outline {
+    margin-top: 15px;
+    border: solid 2px #fff;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #fff;
+    color: #18bc9c;
+    background: #fff;
+}
+/*redes sociales*/
 
 .bg-color {
     background-image: url(https://33.media.tumblr.com/5c26c0b33be142eff668c258e9023eb5/tumblr_mr10dgsBxk1rzct2ro1_500.gif);
     width: 100%;
     height: 250px;
-    background-attachment: fixed;
-}
-.parallax {
-    background-image: url(http://pre08.deviantart.net/3f72/th/pre/f/2014/124/3/b/3bfe1475ab4255dd4e36edc74aefa10f-d7h2oq3.jpg);
-    width: 100%;
-    height: 500px;
-    background-attachment: fixed;
-    background-position-x: -4%;
-    background-position-y: 51%;
 }
 
 
