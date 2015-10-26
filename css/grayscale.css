@@ -430,7 +430,7 @@ body {
 /*work*/
 .bg-gray {
     /*background-color: #ECECEC;*/
-    background-image: url(../img/m.jpg);
+    background-image: url(../img/.jpg);
 }
 .sec {
   display: inline-block!important;
